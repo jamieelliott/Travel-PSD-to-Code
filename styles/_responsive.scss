@@ -1,0 +1,129 @@
+.showNav {
+	display: flex;
+}
+
+
+.fa {
+	display: none;
+	cursor: pointer;
+}
+
+.fa-bars {
+	position: relative;
+	z-index: 10;
+	color:white;
+}
+
+
+@media (max-width: 767px) {
+
+	ul.mainNav {
+		position: fixed;
+		top: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		background: rgba(255,255,255,0.8);
+		opacity: 0;
+		visibility: hidden;
+		flex-flow: column;
+		text-align: center;
+		justify-content: space-around;
+		transition: all 0.5s;
+		transform: scale(1.2);
+	}
+
+	ul.mainNav.show {
+		opacity: 1;
+		width:100%;
+		visibility: visible;
+		transform: scale(1);
+		display: flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		li {
+			display: flex;
+			justify-content:center;
+			align-items:center;
+		}
+	}
+
+	ul.mainNav li {
+		padding: 25px 0;
+		font-size: 2rem;
+	}
+
+	ul.mainNav a {
+		color: rgba(0,0,0,0.8);
+	}
+	
+	.fa {
+		display: inline-block;
+
+	}
+
+	// this is the rest of responsive here
+	
+	.sub, .subMenu {
+		display: none;
+	}
+
+	.info {
+		display: none;
+	}
+}
+
+
+
+@media (max-width: 400px) {
+	h3 {
+		font-size: 10px;
+	}
+	h4, h5 {
+		display: none;
+	}
+	.logo {
+		display: none;
+	}
+	.country img{
+			width: 60px;
+	}
+	.bannerText {
+		padding-top: 50px;
+	}
+	.gallerySMLitem {
+		margin:auto;
+		.place img {
+			width:60px;
+		}
+		.more p{
+			display: none;
+		}
+	}
+	footer {
+		.popular {
+			ul {
+				display: none;
+			}
+		}
+		.tour ul {
+			display: none;
+		}
+		h3 {
+			display: ineline-block;
+			font-size: 2rem;
+			margin: 0 auto;
+		}
+		.subscribe {
+			display: none;
+		}
+		.footerLogo {
+			display: none;
+		}
+	}
+		.moreInfo {
+			display: none;
+		}
+
+}

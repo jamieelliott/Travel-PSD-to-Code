@@ -1,0 +1,97 @@
+section.heroImg {
+	background-image: url(../assets/hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+section.heroText {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	text-align: center;
+	height:600px;
+	flex-wrap:wrap;
+}
+
+h1 {
+	max-width:300px;
+}
+
+.heroText p{
+	max-width: 500px;
+}
+
+.heroText h4 {
+	color:white;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+
+// submenu styling is here 
+
+.subMenu {
+	background-color: linear-gradient (left rgba (57, 73, 104, 0.5));
+	width:100%;
+	height:400px;
+}
+
+nav.sub ul {
+	display: flex;
+	// justify-content:space-around;
+	align-items:center;
+	flex-direction:row;
+	width:350px;
+	margin:auto;
+}
+
+nav.sub ul li a {
+	border: 1px solid gray;
+	padding:20px;
+	margin:0px;
+	background-color: rgba(33, 33, 33, 0.5);
+	font-weight: bold;
+}
+
+.subMenu {
+	background-color: rgba(33, 33, 33,0.5);
+	width:100%;
+	height:200px;
+	display: flex;
+	display:row;
+}
+
+form.submenu {
+	display: flex;
+	flex-direction:row;
+}
+
+.form-item {
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	padding-right: 83px;
+
+}
+.kids, .adults, .rooms {
+	display: flex;
+	flex-direction:column;
+	color:RGB(184, 190, 199);
+}
+
+.form-item {
+
+	button {
+		height:50px;
+	}
+	h5 {
+		text-transform: capitalize;
+		color: RGB(184, 190, 199);
+	}
+	label {
+		padding-bottom: 34px;
+	}
+}
+

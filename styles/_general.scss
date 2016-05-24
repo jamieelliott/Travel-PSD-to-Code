@@ -1,0 +1,51 @@
+
+html {
+	font-size: 62.5%;
+}
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+body {
+	margin: 0;
+}
+
+// button style 1
+button.style1 {
+	background-color: RGB(111, 230, 210);
+	color:white;
+	text-transform: uppercase;
+	text-align: center;
+	padding:10px;
+	border:none;
+	border-radius: 10px;
+}
+// button style 2
+
+
+button.style2 {
+	background-color: RGB(111, 230, 210);
+	color:white;
+	text-align: center;
+	text-transform: uppercase;
+	padding:10px;
+	border:none;
+	border-radius: 10px;
+	display:inline-block;
+
+}
+
+button.style3 {
+    background-color: RGB(111, 230, 210);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+// heading general styling here

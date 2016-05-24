@@ -1,0 +1,20 @@
+.banner {
+	background-image: url(../assets/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+	max-width:100%;
+	
+
+}
+
+.bannerText {
+	text-align: center;
+	margin: auto;
+	padding-top:100px;
+	h4, h2 {
+		color:white;
+	}
+
+}
+

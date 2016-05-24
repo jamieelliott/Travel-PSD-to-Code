@@ -1,0 +1,68 @@
+.galleryLarge {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+
+}
+
+.galleryLRGitem {
+	width: calc(100% / 3 - 15px - 15px);
+	display: flex;
+	position: relative;
+	justify-content: flex-end;
+	flex-direction:column;
+	margin:15px;
+	flex-wrap:wrap;
+}
+.galleryPopItem {
+	position: relative;
+}
+figure img {
+		max-width: 100%;
+	}
+
+figcaption {
+	position: absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	display: flex;
+	flex-direction:column;
+	padding:15px;
+		h4 {
+			color:white;
+		}
+}
+
+.country {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	margin: auto;
+
+}
+
+.info {
+	display: flex;
+	flex-direction: row;
+
+}
+
+figcaption button {
+	margin:auto;
+}
+
+
+.people  {
+	display: flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+		img{
+			padding-right:5px;
+		}
+}
+
+
+// YOU WERE TRYING TO FIX THE SHIT THAT WAS GOING ON ON CHROME

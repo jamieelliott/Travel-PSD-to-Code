@@ -1,0 +1,72 @@
+.top, .bottom {
+	display: flex;
+    flex-direction: row;
+}
+
+.popImgs {
+	 width: 50%;
+	 display: flex;
+	 flex-direction:row;
+	 // align-items:column;
+	 flex-wrap:wrap;
+	 // height: 390px;
+	 	figure {
+		 	width:calc(50% - 10px - 10px);
+		 	margin:10px;
+		 	flex-wrap:wrap;
+				img {
+					flex-wrap:wrap;
+				}
+			}
+ }
+
+.galleryContent {
+	display: flex;
+	width:50%;
+	flex-direction:column; 
+	h3{
+		color:black;
+	}
+	p {
+		padding-bottom: 50px;
+	}
+}
+
+	.France p {
+		text-align: right;
+	}
+
+
+.lists {
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	width:100%;
+	justify-content:space-around;
+	padding-bottom: 130px;
+	ul {
+		list-style-type: cirle;
+	}
+
+}
+
+
+.France {
+	align-items: flex-end;
+}
+
+
+
+ figure {
+	position: relative;
+}
+
+figcaption {
+	position: absolute;
+	width:100%;
+}
+
+button.style3 {
+	width:150px;
+
+}

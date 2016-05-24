@@ -1,0 +1,46 @@
+h1, h2, h3, h4, h5 {
+	font-family: 'roboto';
+	text-transform: uppercase;
+
+}
+
+h1 {
+	color:white;
+	line-spacing: 1.5;
+	text-align: center;
+	font-size: 3rem;
+	letter-spacing: 5px;
+	font-weight: noraml;
+
+}
+
+h2 {
+	text-align: center;
+	letter-spacing:5px;
+	font-size:2rem;
+
+}
+
+h3 {
+	color:white;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+p {
+	color:RGB(209, 210, 211);
+	font-weight: lighter;
+}
+
+.heading {
+	text-align: center;
+	margin-top: 50px;
+	font-weight: normal;
+
+}
+
+
+span {
+	font-weight: bold;
+	color:white;
+}
